@@ -15,7 +15,7 @@ function getTop5ByDate($visit_date)
     	$return = array
     	(
     		'success' => true, 
-    		'message' => "Result",
+    		'message' => "Result for ".$visit_date,
     		'result' => $result
     	); 
 	}
@@ -26,10 +26,9 @@ function getTop5ByDate($visit_date)
     		'success' => false,
     		'message' => $e->getMessage()
     	); 
-	}
-	
+	}	
 
-	return $result;	
+	return $return;	
 } 
 
 function getAPIs()
