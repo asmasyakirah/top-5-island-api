@@ -17,7 +17,7 @@ $config = array
     "url" => array
     ( 
         // (#1) localhost
-        "base" => "localhost/top5island/"
+        "base" => "localhost/top5island_api/"
     ),
     "db" => array
     (        
